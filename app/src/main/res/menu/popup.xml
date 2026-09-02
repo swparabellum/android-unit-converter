@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmKgtolb"
+        android:title="kg to lb" />
+    <item
+        android:id="@+id/itmLbtokg"
+        android:title="lb to kg" />
+    <item
+        android:id="@+id/itmKmtokt"
+        android:title="km/h to knot (kt)" />
+    <item
+        android:id="@+id/itmKmtonm"
+        android:title="km to NM" />
+    <item
+        android:id="@+id/itmNmtokm"
+        android:title="NM to km" />
+</menu>
