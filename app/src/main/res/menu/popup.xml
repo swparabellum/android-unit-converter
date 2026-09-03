@@ -11,6 +11,9 @@
         android:id="@+id/itmKmtokt"
         android:title="km/h to knot (kt)" />
     <item
+        android:id="@+id/itmKttokm"
+        android:title="knot (kt) to km/h" />
+    <item
         android:id="@+id/itmKmtonm"
         android:title="km to NM" />
     <item
