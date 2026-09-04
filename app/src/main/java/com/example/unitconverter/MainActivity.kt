@@ -30,12 +30,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         appinit()
-        setupNumberButtons()
         mainBinding.BtnUnitSelecter.setOnClickListener { selector() }
     }
 
-    @SuppressLint("SetTextI18n")
     private fun appinit() {
+        setupNumberButtons()
         updateMode(ConversionMode.KG_TO_LB)
     }
 
@@ -107,6 +106,7 @@ class MainActivity : AppCompatActivity() {
         mainBinding.textView2.text = "$formattedResult ${currentMode.toUnit}"
     }
 
+    //popup메뉴 표출하여 원하는 단위변환 모드 선택
     fun selector() {
         val popup = PopupMenu(this, mainBinding.BtnUnitSelecter)
         popup.menuInflater.inflate(R.menu.popup, popup.menu)
