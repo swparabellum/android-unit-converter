@@ -119,6 +119,10 @@ class MainActivity : AppCompatActivity() {
                 R.id.itmKttokm -> ConversionMode.KT_TO_KMH
                 R.id.itmKmtonm -> ConversionMode.KM_TO_NM
                 R.id.itmNmtokm -> ConversionMode.NM_TO_KM
+                R.id.itmGaltol -> ConversionMode.GAL_TO_L
+                R.id.itmLtogal -> ConversionMode.L_TO_GAL
+                R.id.itmFttom -> ConversionMode.FT_TO_M
+                R.id.itmMtoft -> ConversionMode.M_TO_FT
                 else -> null
             }
 

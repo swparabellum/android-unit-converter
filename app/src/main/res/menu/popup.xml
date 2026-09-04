@@ -19,4 +19,16 @@
     <item
         android:id="@+id/itmNmtokm"
         android:title="NM to km" />
+    <item
+        android:id="@+id/itmGaltol"
+        android:title="gal to L" />
+    <item
+        android:id="@+id/itmLtogal"
+        android:title="L to gal" />
+    <item
+        android:id="@+id/itmFttom"
+        android:title="ft to m" />
+    <item
+        android:id="@+id/itmMtoft"
+        android:title="m to ft" />
 </menu>
